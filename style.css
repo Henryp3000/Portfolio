@@ -13,8 +13,16 @@ h2{
 li{
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600&display=swap');
  
-
- }
+}
+    /* <style> */
+    .imgmain{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1000;
+        height: auto;
+    }
+/* </style> */
  
 
 div{
