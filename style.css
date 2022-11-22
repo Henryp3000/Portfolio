@@ -1,0 +1,121 @@
+
+h1{
+background-color: rgb(188, 35, 35);
+color: rgb(239, 230, 230);
+}
+
+h2{
+    background-color: #dd710c;
+    color: azure
+}
+
+
+li{
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600&display=swap');
+ 
+
+ }
+ 
+
+div{
+    
+  
+    padding-left: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-left: 0;
+    box-sizing: border-box;
+    border: solid 2px #edca722c;
+}
+
+:root{
+    --primary-color: #ff5613;   
+    --texr-color: #dd710c;
+    
+}
+html{
+    font-size: 10px;
+
+}
+body{
+    font-family: Poppins, sans-serif;
+    background-color: rgb(242, 242, 237);
+    color: #ffffff; 
+}
+common styles
+img{
+    
+    width:3000%
+}
+.description{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--texr-color);
+    background-color: rgb(255, 255, 255);
+}
+a{  
+    text-decoration: rgb(249, 249, 249);
+    color:rgb(41, 19, 151)
+}
+
+layout
+/* /*Skills, Experience, Education */
+.container{
+    max-width: 1000px;
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    padding: rem;  
+    background: #0af416;
+    color: rgb(110, 10, 241);
+    grid-template-columns: 1fr 1fr;
+    gap: 4rm;
+
+}
+@media only screen and (max-width:768px){
+.container {
+    width: 100%;
+    grid-template-columns: 1fr;
+    padding: 3rem;
+    gap: 7rem;
+}    
+}
+.profile {
+    grid-column: 1 / -1;
+    margin-bottom: 2rem;
+}
+/*profile*/
+.profile_container { 
+    display: flex;
+    gap: 2rem;
+}
+.profile_profileImg{
+    max-width: 250px;
+}
+.profile_name_firstName{
+    color: rgb(230, 161, 12);
+    font-weight: 500;
+    font-size: clamp(2rem, 8vw, 4rem);
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: -0.8rem;
+
+}
+.profile_name_lastName{
+    color:rgb(251, 251, 251);
+    font-weight: 700;
+    font-size: clamp(2rem, 8vw, 4rem);
+    text-transform: uppercase;
+    display: block;
+    
+}
+.profile_title{
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    
+}
+
+
+
